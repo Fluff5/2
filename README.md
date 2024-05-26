@@ -1,2 +1,3 @@
-# 3
-Try to get two 3s to spawn and merge them!
+#2
+
+Get 2! Don't get 3 or 4!
