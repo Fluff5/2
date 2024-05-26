@@ -2,9 +2,9 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  background: #f5f5e8;
+  color: #140a0a;
+  font-family: none;
   font-size: 18px; }
 
 body {
@@ -309,66 +309,39 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-size: 55px; }
-  .tile.tile-0 .tile-inner {
-    color: #fca84e;
-    background: #e4e2de; }
   .tile.tile-1 .tile-inner {
-    color: #f9f6f2;
-    background: #6173f5; }
+    color: #140a0a;
+    background: #d3d0d0; }
   .tile.tile-2 .tile-inner {
-    color: #f9f6f2;
-    background: #0aa436; }
+    color: #f9e59e;
+    background: #d94545; }
   .tile.tile-3 .tile-inner {
-    color: #f9f6f2;
-    background: #e9d107; }
+    color: #25004f;
+    background: #70f95e; }
   .tile.tile-4 .tile-inner {
-    color: #f9f6f2;
-    background: #e10606; }
+    color: #d300dd;
+    background: #35b9ff; }
   .tile.tile-5 .tile-inner {
-    color: #f9f6f2;
-    background: #ad13f0; }
+    color: #0cff00;
+    background: #7e00d5; }
   .tile.tile-6 .tile-inner {
-    color: #f9f6f2;
-    background: #150585; }
+    color: #4af490;
+    background: #3c0306; }
   .tile.tile-7 .tile-inner {
-    color: #f9f6f2;
-    background: #020202; }
-  .tile.tile--1 .tile-inner {
-    color: #f9f6f2;
-    background: #13f0b4; }
-  .tile.tile--2 .tile-inner {
-    color: #f9f6f2;
-    background: #7bd10d; }
-  .tile.tile--3 .tile-inner {
-    color: #f9f6f2;
-    background: #e97508; }
-  .tile.tile--4 .tile-inner {
-    color: #f9f6f2;
-    background: #e10993; }
+    color: #ffc100;
+    background: #290b90; }
+  .tile.tile-8 .tile-inner {
+    color: #684dff;
+    background: #ff7c00; }
+  .tile.tile-9 .tile-inner {
+    color: #f20028;
+    background: #bff200; }
+  .tile.tile-10 .tile-inner {
+    color: #979797;
+    background: #ffffff; }
   .tile.tile-82 .tile-inner {
-    color: #fdfaf8;
-    background: #d7a881; }
-  .tile.tile--5 .tile-inner {
-    color: #000000;
-    background: #ffffff;
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile--5 .tile-inner {
-        font-size: 25px; } }
-  .tile.tile--6 .tile-inner {
-    color: #000000;
-    background: #1bff52;
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile--6 .tile-inner {
-        font-size: 25px; } }
-  .tile.tile-8282 .tile-inner {
-    color: #fdfaf8;
-    background: #eac9ae;
-    font-size: 35px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-8282 .tile-inner {
-        font-size: 15px; } }
+    color: #eed2b5;
+    background: #bfa284; }
 
 @-webkit-keyframes appear {
   0% {
