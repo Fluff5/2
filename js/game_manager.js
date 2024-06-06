@@ -59,7 +59,7 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-    var value = Math.random() < 0.99999996 ? Math.random() < 0.9999999 ? Math.random() < 0.9999997 ? Math.random() < 0.999999 ? Math.random() < 0.999997 ? Math.random() < 0.9999969 ? Math.random() < 0.9999968 ? Math.random() < 0.99997 ? Math.random() < 0.999969 ? Math.random() < 0.999968 ? 1 : 2 : 3 : 4 : 5 : 6 : 7 : 8 : 9 : 10 : 82;
+    var value = Math.random() < 0.99999999 ? Math.random() < 0.9999999878048780487804878 ? Math.random() < 0.99999996 ? Math.random() < 0.9999999 ? Math.random() < 0.9999997 ? Math.random() < 0.99999969 ? Math.random() < 0.99999968 ? Math.random() < 0.999999 ? Math.random() < 0.999997 ? Math.random() < 0.9999969 ? Math.random() < 0.9999968 ? Math.random() < 0.99997 ? Math.random() < 0.999969 ? Math.random() < 0.999968 ? 1 : 2 : 3 : 4 : 5 : 6 : 7 : 75 : 8 : 9 : 10 : 11 : 82 : 0;
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
     this.grid.insertTile(tile);
@@ -140,6 +140,7 @@ GameManager.prototype.move = function (direction) {
           self.score += 1;
 
           // The mighty 2 tile
+	  if (merged.value === 0) self.over = true;
           if (merged.value === 2) self.won = true;
 	  if (merged.value === 3) self.over = true;
 	  if (merged.value === 4) self.over = true;
@@ -149,6 +150,8 @@ GameManager.prototype.move = function (direction) {
 	  if (merged.value === 8) self.over = true;
 	  if (merged.value === 9) self.over = true;
 	  if (merged.value === 10) self.over = true;
+	  if (merged.value === 11) self.over = true;
+	  if (merged.value === 75) self.over = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
