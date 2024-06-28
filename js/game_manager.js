@@ -63,6 +63,7 @@ GameManager.prototype.addRandomTile = function () {
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
     this.grid.insertTile(tile);
+    this.score += 1;
   }
 };
 
@@ -135,9 +136,6 @@ GameManager.prototype.move = function (direction) {
 
           // Converge the two tiles' positions
           tile.updatePosition(positions.next);
-
-          // Update the score
-          self.score += 1;
 
           // The mighty 2 tile
 	  if (merged.value === 0) self.over = true;
