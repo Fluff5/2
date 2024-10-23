@@ -59,7 +59,7 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-    var value = Math.random() < 0.99999999 ? Math.random() < 0.9999999878048780487804878 ? Math.random() < 0.99999996 ? Math.random() < 0.9999999 ? Math.random() < 0.9999997 ? Math.random() < 0.99999969 ? Math.random() < 0.99999968 ? Math.random() < 0.999999 ? Math.random() < 0.999997 ? Math.random() < 0.9999969 ? Math.random() < 0.9999968 ? Math.random() < 0.99997 ? Math.random() < 0.999969 ? Math.random() < 0.999968 ? 1 : 2 : 3 : 4 : 5 : 6 : 7 : 75 : 8 : 9 : 10 : 11 : 82 : 8282 : 0;
+    var value = Math.random() < 0.999999998780487804878 ? Math.random() < 0.999999997 ? Math.random() < 0.9999999969 ? Math.random() < 0.9999999968 ? Math.random() < 0.99999999 ? Math.random() < 0.9999999878048780487804878 ? Math.random() < 0.99999997 ? Math.random() < 0.999999969 ? Math.random() < 0.999999968 ? Math.random() < 0.99999996 ? Math.random() < 0.9999999 ? Math.random() < 0.9999997 ? Math.random() < 0.99999969 ? Math.random() < 0.99999968 ? Math.random() < 0.999999 ? Math.random() < 0.999997 ? Math.random() < 0.9999969 ? Math.random() < 0.9999968 ? Math.random() < 0.99997 ? Math.random() < 0.999969 ? Math.random() < 0.999968 ? 1 : 2 : 3 : 4 : 5 : 6 : 7 : 75 : 8 : 9 : 10 : 1011 : 82 : 11 : 12 : 13 : 8282 : 0 : 14 : 15 : 16 : 828282;
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
     this.grid.insertTile(tile);
@@ -149,7 +149,13 @@ GameManager.prototype.move = function (direction) {
 	  if (merged.value === 9) self.over = true;
 	  if (merged.value === 10) self.over = true;
 	  if (merged.value === 11) self.over = true;
+	  if (merged.value === 12) self.over = true;
+	  if (merged.value === 13) self.over = true;
+	  if (merged.value === 14) self.over = true;
+	  if (merged.value === 15) self.over = true;
+	  if (merged.value === 16) self.over = true;
 	  if (merged.value === 75) self.over = true;
+	  if (merged.value === 1011) self.over = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
