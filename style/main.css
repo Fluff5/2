@@ -309,6 +309,9 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-size: 55px; }
+  .tile.tile--1 .tile-inner {
+    color: #a12e92;
+    background: #4b2f04; }
   .tile.tile-0 .tile-inner {
     color: #c200ff;
     background: #000000; }
@@ -367,6 +370,19 @@ hr {
   .tile.tile-16 .tile-inner {
     color: #ff0000;
     background: #838383; }
+  .tile.tile-17 .tile-inner {
+    color: #ffb0c2;
+    background: #006304; }
+  .tile.tile-18 .tile-inner {
+    color: #75609b;
+    background: #ffddb9; }
+  .tile.tile-19 .tile-inner {
+    color: #7d0000;
+    background: #ff0068; }
+  .tile.tile-22 .tile-inner {
+    color: #f9e59e;
+    background: #d94545;
+    font-size: 40px; }
   .tile.tile-82 .tile-inner {
     color: #eed2b5;
     background: #bfa284; }
@@ -378,6 +394,10 @@ hr {
     color: #eed2b5;
     background: #89735d;
     font-size: 30px; }
+  .tile.tile-82828282 .tile-inner {
+    color: #d7c1ab;
+    background: #f5e9dc;
+    font-size: 25px; }
 
 @-webkit-keyframes appear {
   0% {
